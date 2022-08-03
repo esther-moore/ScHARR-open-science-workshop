@@ -27,3 +27,9 @@ ce_markov <- function(start_pop,
 
  ### some code ...
 }
+
+#this function will calculate an ICER
+calc_ICER <- function(delta_e, delta_c) {
+  return(delta_c/delta_e)
+}
+
