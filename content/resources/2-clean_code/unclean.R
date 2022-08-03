@@ -10,6 +10,7 @@ names <- c("without_drug", "with_drug")
 
 n_treatments <- length(names)
 
+
 sNames  <- c('Asymptomatic_disease', 'Progressive_disease', "Dead")
 
 n_states <- length(s_names)
