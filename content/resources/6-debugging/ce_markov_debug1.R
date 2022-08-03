@@ -66,7 +66,8 @@ ce_markov <- function(start_pop,
       
       age <- age + 1
     }
-    browser()
+    if (j>20)browser()
+   
     cycle_state_costs[i, ] <-
       (state_c_matrix[treatment = i, ] %*% pop[, , treatment = i]) * 1/(1 + cDr)^(1:n_cycles - 1)
     
