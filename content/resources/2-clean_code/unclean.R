@@ -2,7 +2,9 @@
 # temp2 #
 #########
 
-setwd("C:/Documents and Settings/Public/")
+
+
+setwd("G:\\My Drive\\ScHARR-open-science-workshop") 
 
 names <- c("without_drug", "with_drug")
 
